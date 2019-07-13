@@ -1,0 +1,64 @@
+body {
+    width: 100%;
+    /*display: grid;
+    grid-template-columns: 25% auto 25%; */
+    margin:0;
+    padding:0;
+}
+
+header {
+    /*display: grid;
+    grid-template-columns: 30% 70%;*/
+}
+
+.body-whitespace {
+    background-color: #fff;
+}
+
+.content {
+    width: 100%;
+    grid-template-columns: 1;
+    background-color: #fff;
+}
+
+nav {
+    display: block;
+    margin: 8px 22px;
+    text-align:center;
+}
+
+nav > ul {
+    padding: 0;
+    margin: 0;
+}
+nav > ul > li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    color: #00f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#stylingOptions {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+#stylingOptions input[type=textbox] {
+    width: 40px;
+}
+
+.pageOptions {
+    grid-column: 1;
+}
+
+.gridBorder {
+    border: 2px solid #f00;
+}
+
+.gridTextCenter {
+    text-align: center;
+}

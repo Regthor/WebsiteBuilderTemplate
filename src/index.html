@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>HTML Templates &amp; Layouts</title>
+    <link rel="stylesheet" href="site.css" />
+</head>
+
+<body>
+    <div class="body-whitespace"></div>
+    <div class="content">
+        <header>
+        </header>
+        <main>
+            <p>Use the properties below to change the styles of the preview at the bottom of the screen</p>
+            <div id="stylingOptions">
+                <div class="pageOptions">
+                    <div>
+                        Page Whitespace: <input id="whitespaceVal" type="textbox" value="15" onblur="RecalculateGrid()" />
+                        <select id="whitespaceOpt" onchange="RecalculateGrid()">
+                            <option>%</option>
+                            <option>px</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    Grid Columns: <input id="gridColumns" type="textbox" value="1" onchange="RecalculateGrid()" />
+                </div>
+                <div>
+                    Grid Rows: <input id="gridRows" type="textbox" value="3" onchange="RecalculateGrid()" />
+                </div>
+            </div>
+            <hr />
+            <div id="preview">
+
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+    <div class="body-whitespace"></div>
+    <script type="text/javascript" src="site.js"></script>
+</body>
+
+</html>
